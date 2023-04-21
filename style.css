@@ -1,0 +1,46 @@
+.formulario{
+    text-align: center;
+   color: rgb(33, 238, 33);
+   border: 10px;
+   
+}
+.main{
+    background-color: rgb(10, 65, 84);
+    width: 300px;
+    text-align: center;
+    
+    
+}
+#olho{
+    width: 30px;
+    color: blueviolet;
+    
+    
+}
+#input{
+    text-align: center;
+}
+body{
+    background-image: url("tech.jpg");
+    text-align: center;
+    color: rgb(223, 176, 113);
+    background-color: azure;
+    position: absolute ;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    animation: bgimage 10s infinite;
+    
+}
+@keyframes bgimage{
+    0%{
+        background-image: url('k4.jpg');       
+    }
+    50%{
+        background-image: url('tech.jpg');
+    }
+    100%{
+        background-image: url('matrix.gif'); 
+    }
+
+}
